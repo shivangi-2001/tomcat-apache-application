@@ -66,5 +66,9 @@ sudo cp sample.war /opt/tomcat/webapps/
 cd /opt/tomcat/webapps
 sudo chown tomcat:tomcat sample.war
 
+#update firewall
+sudo ufw enable
+sudo ufw allow 8080
+
 # Restart Tomcat service
 sudo systemctl restart tomcat
