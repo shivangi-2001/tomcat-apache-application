@@ -1,6 +1,6 @@
 # Apache Tomcat Setup with Vagrant and Shell Script
 
-<sub>This project sets up an Apache Tomcat 10 server inside a Vagrant-managed virtual machine using a provisioning shell script.</sub>
+This project sets up an Apache Tomcat 10 server inside a Vagrant-managed virtual machine using a provisioning shell script.
 
 ### Requirements
 
@@ -23,7 +23,7 @@ cd tomcat-vagrant
 ```
 
 **2. Start the Vagrant Machine**
-<sub>Run the following command to initialize the VM:</sub>
+Run the following command to initialize the VM:
 ```
 vagrant up
 ```
@@ -39,7 +39,7 @@ After the setup is complete, SSH into the VM:
 vagrant ssh 
 ```
 **4. Run the Tomcat Installation Script**
-<sub>Once inside the VM, navigate to the project directory (if required) and run:</sub>
+Once inside the VM, navigate to the project directory (if required) and run:
 ```
 chmod +x tomcat.sh
 ./tomcat.sh
@@ -53,7 +53,7 @@ This script will:
 **✔️ Start and enable the Tomcat service**
 
 **5. Access Tomcat Web Interface**
-<sub>Once the setup completes, you can access Tomcat Manager in a web browser:</sub>
+Once the setup completes, you can access Tomcat Manager in a web browser:
 🔗 http://192.168.58.100:8080/
 
 If you deployed a sample application, access it via:
