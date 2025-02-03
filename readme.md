@@ -23,12 +23,10 @@ cd tomcat-vagrant
 ```
 
 **2. Start the Vagrant Machine**
-<sup>Run the following command to initialize the VM:</sup>
-<sub>
+<sub>Run the following command to initialize the VM:</sub>
 ```
 vagrant up
 ```
-</sub>
 
 ✅ Create a virtual machine with **Ubuntu ARM**(spox/ubuntu-arm box)
 ✅ Assign the VM a **private IP: 192.168.58.100**
@@ -41,7 +39,7 @@ After the setup is complete, SSH into the VM:
 vagrant ssh 
 ```
 **4. Run the Tomcat Installation Script**
-<sup>Once inside the VM, navigate to the project directory (if required) and run:</sup>
+<sub>Once inside the VM, navigate to the project directory (if required) and run:</sub>
 ```
 chmod +x tomcat.sh
 ./tomcat.sh
@@ -55,7 +53,7 @@ This script will:
 **✔️ Start and enable the Tomcat service**
 
 **5. Access Tomcat Web Interface**
-<sup>Once the setup completes, you can access Tomcat Manager in a web browser:</sup>
+<sub>Once the setup completes, you can access Tomcat Manager in a web browser:</sub>
 🔗 http://192.168.58.100:8080/
 
 If you deployed a sample application, access it via:
@@ -86,4 +84,4 @@ vagrant plugin install vagrant-vmware-desktop
 ```
 
 
-<sup>Now you're all set to run Apache Tomcat in a Vagrant-managed VM! 🚀</sup>
+<sub>Now you're all set to run Apache Tomcat in a Vagrant-managed VM! 🚀</sub>
